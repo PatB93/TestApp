@@ -1,0 +1,19 @@
+plugins {
+    id 'kotlin'
+    id 'kotlin-kapt'
+}
+repositories {
+    mavenCentral()
+    google()
+}
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.13.2'
+
+    // Dependency Injection
+    implementation 'com.google.dagger:hilt-core:2.38.1'
+}

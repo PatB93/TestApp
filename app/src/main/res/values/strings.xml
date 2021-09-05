@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">TestApplication</string>
+    <string name="thumbnail_image_description">thumbnail image</string>
+    <string name="page_count">%d / %d</string>
+    <string name="back_image_search">Go back one page in images</string>
+    <string name="forward_image_search">Go forward one page in images</string>
 </resources>
